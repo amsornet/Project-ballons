@@ -1,0 +1,75 @@
+/* line 1, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 5, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+body {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  color: #777777;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 50px;
+}
+
+/* line 13, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+.container {
+  background-color: #F7F7F7;
+}
+
+/* line 15, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+.header {
+  position: relative;
+  height: 95vh;
+  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0%, rgba(1, 1, 1, 0.7) 100%), url("../img/header-background.jpg") center/cover no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+/* line 20, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+.header__logo {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  height: 70px;
+  width: 56px;
+}
+
+/* line 26, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+.header__box {
+  position: absolute;
+  width: 60vw;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 34, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+.title-first {
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 37, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+.title-first__main {
+  display: block;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* line 45, ../HTML_Fokeev/Advansed WEB_HTML&CSS/Project-ballons/src/sass/style.sass */
+.title-first__secondary {
+  display: block;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
