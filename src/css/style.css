@@ -98,7 +98,7 @@ body {
 /* line 72, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
 .btn:hover {
   transform: translateY(-4px);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* line 75, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
@@ -110,7 +110,7 @@ body {
 /* line 80, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
 .btn:active {
   transform: translateY(-3px);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* line 83, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
@@ -131,6 +131,7 @@ body {
 /* line 95, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
 .btn_animated {
   animation: BtnToUp .5s ease-out .7s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes BtnToUp {
