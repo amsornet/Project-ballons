@@ -17,6 +17,23 @@ $box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3)
   color: $color
   display: inline-block
 
+//templates
+
+%template
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+//function
+@function multiply ($a, $b)
+  @return $a * $b
+
+
+
+
+
+
 
 
 
@@ -41,6 +58,7 @@ body
 
 .container
   background-color: #F7F7F7
+
 .header
   position: relative
   height: 95vh
@@ -48,7 +66,7 @@ body
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%)
   &__logo
     position: absolute
-    left: 5rem
+    left: multiply(25, 2) * 1px
     top: 5rem
     height: 7rem
     width: 5.6rem
@@ -90,15 +108,14 @@ body
 
 .btn
   &:link, &:visited
-
     @include style-link($color-gray)
     padding: 1.5rem 4rem
     background: $color-gray-light
     border-radius: 5rem
-
     transition: all .3s
     position: relative
     font-size: 2rem
+
   &:hover
     transform: translateY(-.4rem)
     box-shadow: $box-shadow
@@ -159,7 +176,6 @@ body
   100%
     opacity: 1
     transform: translateX(0)
-
 
 
 
