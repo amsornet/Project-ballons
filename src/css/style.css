@@ -1,40 +1,39 @@
-/* line 1, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000326}}
 *, ::after, ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 6, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000331}}
 html {
   font-size: 62.5%;
 }
 
-/* line 8, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000333}}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #777777;
   font-size: 1.6rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   padding: 5rem;
-  background-color: white;
+  background-color: #F7F7F7;
 }
 
-/* line 17, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000342}}
 .container {
   background-color: #F7F7F7;
 }
 
-/* line 19, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000344}}
 .header {
   position: relative;
   height: 95vh;
   background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/header-background.jpg") center/cover no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
-
-/* line 24, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000349}}
 .header__logo {
   position: absolute;
   left: 5rem;
@@ -42,8 +41,7 @@ body {
   height: 7rem;
   width: 5.6rem;
 }
-
-/* line 30, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000355}}
 .header__box {
   position: absolute;
   top: 40%;
@@ -53,12 +51,11 @@ body {
   text-align: center;
 }
 
-/* line 38, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000363}}
 .title-first {
   color: #FFFFFF;
 }
-
-/* line 40, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000365}}
 .title-first__main {
   display: block;
   font-weight: 800;
@@ -73,14 +70,13 @@ body {
   animation-timing-function: ease;
   backface-visibility: hidden;
 }
-
-/* line 53, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000378}}
 .title-first__secondary {
   display: block;
   font-weight: 100;
   font-size: 4rem;
   line-height: 4.8rem;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   animation-name: RightToLeft;
   animation-duration: 1.7s;
   animation-delay: 1s;
@@ -89,41 +85,38 @@ body {
   margin-bottom: 6.5rem;
 }
 
-/* line 67, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\0000392}}
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   color: #777777;
-  padding: 1.5rem 4rem;
-  background: white;
-  border-radius: 5rem;
   display: inline-block;
-  transition: all .5s;
+  padding: 1.5rem 4rem;
+  background: #F7F7F7;
+  border-radius: 5rem;
+  transition: all 0.3s;
+  position: relative;
   font-size: 2rem;
 }
-
-/* line 77, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\00003102}}
 .btn:hover {
-  transform: translateY(-4px);
+  transform: translateY(-0.4rem);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
-
-/* line 80, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\00003105}}
 .btn:hover::after {
   opacity: 0;
   transform: scaleX(1.5) scaleY(1.7);
 }
-
-/* line 83, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\00003108}}
 .btn:active {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-0.2rem);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
-
-/* line 86, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\00003111}}
 .btn::after {
   content: "";
-  background: white;
+  background: #F7F7F7;
   width: 100%;
   height: 100%;
   border-radius: 5rem;
@@ -132,12 +125,11 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all .4s;
+  transition: all 0.4s;
 }
-
-/* line 98, ../HTML_Fokeev/Project-ballons/src/sass/style.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/style\.sass}line{font-family:\00003123}}
 .btn_animated {
-  animation: BtnToUp .5s ease-out .7s;
+  animation: BtnToUp 0.5s ease-out 0.7s;
   animation-fill-mode: backwards;
 }
 
@@ -148,10 +140,9 @@ body {
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
-
 @keyframes LeftToRight {
   0% {
     opacity: 0;
@@ -162,10 +153,9 @@ body {
   }
   100% {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
-
 @keyframes RightToLeft {
   0% {
     opacity: 0;
@@ -176,7 +166,7 @@ body {
   }
   100% {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
