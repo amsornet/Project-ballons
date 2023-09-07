@@ -1,21 +1,10 @@
-//variables color
-$color-gray: #777777
-$color-brown-light: #BA8554
-$color-brown-dark: #A14F03
-$color-gray-light: #F7F7F7
-$color-black: rgb(1, 1, 1)
+@import "abstracts/variable.sass"
+@import "abstracts/mixins.sass"
+@import "abstracts/functions"
 
-$gradient-brown_light-brown_dark: rgb(195, 149, 106)
-$gradient-brown-black: rgb(186, 133, 84)
 
-$box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3)
 
-//mixin
-@mixin style-link($color)
-  text-transform: uppercase
-  text-decoration: none
-  color: $color
-  display: inline-block
+
 
 //templates
 
@@ -25,9 +14,6 @@ $box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3)
   box-sizing: border-box
 
 
-//function
-@function multiply ($a, $b)
-  @return $a * $b
 
 
 
