@@ -180,4 +180,15 @@ body {
   text-align: center;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_grid\.sass}line{font-family:\000031}}
+.row {
+  max-width: 114rem;
+  background: #c89393;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_grid\.sass}line{font-family:\000036}}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
