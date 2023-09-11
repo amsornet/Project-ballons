@@ -324,4 +324,44 @@ body {
   transform: translateY(0rem);
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\000031}}
+.composition {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\000033}}
+.composition__photo {
+  width: 55%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\0000311}}
+.composition__photo_n1 {
+  top: 0;
+  left: 0rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\0000314}}
+.composition__photo_n2 {
+  top: 2rem;
+  right: 0rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\0000317}}
+.composition__photo_n3 {
+  top: 13rem;
+  left: 10rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\0000320}}
+.composition__photo:hover {
+  outline: 1rem solid #BA8554;
+  transform: scale(1.1);
+  z-index: 20;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\0000324}}
+.composition:hover .composition__photo:not(:hover) {
+  transform: scale(0.95);
+}
+
 /*# sourceMappingURL=style.css.map */
