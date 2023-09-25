@@ -248,7 +248,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000035}}
 .section-adventure {
-  padding: 21.5rem 0;
+  padding: 21rem 0;
   background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/background_adventure.jpg") center/cover no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   transform: skewY(7deg);
@@ -256,6 +256,11 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\0000310}}
 .section-adventure > * {
   transform: skewY(-7deg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\0000313}}
+.section-tour {
+  padding-top: 21rem;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_grid\.sass}line{font-family:\000031}}
@@ -397,6 +402,88 @@ body {
   background--webkit-background-clip: text;
   background-color: transparent;
   background-display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\000031}}
+.card-tour {
+  height: 50rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\000036}}
+.card-tour__side {
+  height: 50rem;
+  transition: 0.7s all ease-out;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000317}}
+.card-tour__side_back {
+  background: green;
+  transform: rotateY(180deg);
+  background: linear-gradient(120deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(186, 133, 84, 0.7) 99.94%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000321}}
+.card-tour:hover .card-tour__side_front {
+  transform: rotateY(-180deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000323}}
+.card-tour:hover .card-tour__side_back {
+  transform: rotateY(0deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000326}}
+.card-tour__img {
+  background-blend-mode: hard-light;
+  height: 21rem;
+  background: #BA8554 url("../img/card-1.jpg") center/cover no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000331}}
+.card-tour__title {
+  font-size: 2.8rem;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: right;
+  position: absolute;
+  top: 17rem;
+  right: 0rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000340}}
+.card-tour__span {
+  background: linear-gradient(90deg, #BA8554, #BA8554);
+  padding: 1rem 2rem 0.3rem 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000344}}
+.card-tour__span_2 {
+  position: absolute;
+  top: 3.4rem;
+  right: 0;
+  padding-bottom: 1rem;
+  padding-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000351}}
+.card-tour__description ul {
+  list-style: none;
+  width: 75%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000355}}
+.card-tour__description ul li {
+  font-size: 1.6rem;
+  color: #777777;
+  border-bottom: 1px solid #777777;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\0000360}}
+.card-tour__description ul:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
