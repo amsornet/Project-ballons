@@ -128,7 +128,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/base\/_typography\.sass}line{font-family:\0000353}}
 .title-third {
-  font-size: 3.6rem;
+  font-size: 2rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -243,6 +243,18 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000031}}
 .section-about {
   padding-top: 8rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000034}}
+.section-adventure {
+  padding: 21.5rem 0;
+  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/background_adventure.jpg") center/cover no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  transform: skewY(7deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000039}}
+.section-adventure > * {
+  transform: skewY(-7deg);
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_grid\.sass}line{font-family:\000031}}
@@ -362,6 +374,28 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_composition\.sass}line{font-family:\0000324}}
 .composition:hover .composition__photo:not(:hover) {
   transform: scale(0.95);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_adventure-card\.sass}line{font-family:\000031}}
+.adventure-card {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: 0.2s all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_adventure-card\.sass}line{font-family:\000038}}
+.adventure-card:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_adventure-card\.sass}line{font-family:\0000310}}
+.adventure-card__icon {
+  font-size: 6rem;
+  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(161, 79, 3, 0.7) 99.94%);
+  background--webkit-background-clip: text;
+  background-color: transparent;
+  background-display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */
