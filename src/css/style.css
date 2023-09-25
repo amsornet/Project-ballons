@@ -243,16 +243,17 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000031}}
 .section-about {
   padding-top: 8rem;
+  padding-bottom: 12rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000035}}
 .section-adventure {
   padding: 21.5rem 0;
   background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/background_adventure.jpg") center/cover no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   transform: skewY(7deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\0000310}}
 .section-adventure > * {
   transform: skewY(-7deg);
 }
