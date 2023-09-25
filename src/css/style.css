@@ -538,7 +538,7 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-ballons\/src\/sass\/components\/_feedBack-card\.sass}line{font-family:\000031}}
 .feedBack-card {
-  width: 75%;
+  width: 85%;
   background: rgba(255, 255, 255, 0.75);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   margin: 0 auto;
@@ -560,10 +560,37 @@ body {
   -webkit-shape-outside: circle(50% at 50% 50%);
   margin-right: 2.5rem;
   overflow: hidden;
+  position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-ballons\/src\/sass\/components\/_feedBack-card\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-ballons\/src\/sass\/components\/_feedBack-card\.sass}line{font-family:\0000321}}
 .feedBack-card__img img {
   height: 100%;
+  transform: scale(1.2);
+  transition: 0.3s all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-ballons\/src\/sass\/components\/_feedBack-card\.sass}line{font-family:\0000325}}
+.feedBack-card__name {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  color: #fff;
+  opacity: 0;
+  transition: 0.3s all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-ballons\/src\/sass\/components\/_feedBack-card\.sass}line{font-family:\0000337}}
+.feedBack-card:hover .feedBack-card__name {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-ballons\/src\/sass\/components\/_feedBack-card\.sass}line{font-family:\0000340}}
+.feedBack-card:hover img {
+  transform: scale(1);
+  filter: blur(0.3rem) brightness(75%);
 }
 
 /*# sourceMappingURL=style.css.map */
