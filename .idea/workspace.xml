@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_button.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/components/_form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_form.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
       <workItem from="1695707217836" duration="1002000" />
       <workItem from="1695708666852" duration="30000" />
       <workItem from="1695708706636" duration="7018000" />
-      <workItem from="1695730441739" duration="4617000" />
+      <workItem from="1695730441739" duration="8457000" />
     </task>
     <servers />
   </component>

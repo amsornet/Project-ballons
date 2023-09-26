@@ -57,17 +57,22 @@ body { font-family: "Roboto", sans-serif; font-weight: 400; color: #777777; font
 .margin-bottom-80px { margin-bottom: 8rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\000034}}
-.btn:link, .btn:visited { text-transform: uppercase; text-decoration: none; color: #777777; display: inline-block; padding: 1.5rem 4rem; background: #F7F7F7; border-radius: 5rem; transition: all 0.3s; position: relative; font-size: 2rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000313}}
+.btn, .btn:link, .btn:visited { text-transform: uppercase; text-decoration: none; color: #777777; display: inline-block; padding: 1.5rem 4rem; background: #F7F7F7; border-radius: 5rem; transition: all 0.3s; position: relative; font-size: 2rem; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000314}}
 .btn:hover { transform: translateY(-0.4rem); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000317}}
 .btn:hover::after { opacity: 0; transform: scaleX(1.5) scaleY(1.7); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000320}}
 .btn:active { transform: translateY(-0.2rem); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000323}}
 .btn::after { content: ""; background: #F7F7F7; width: 100%; height: 100%; border-radius: 5rem; display: inline-block; position: absolute; top: 0; left: 0; z-index: -1; transition: all 0.4s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000335}}
 .btn_animated { animation: BtnToUp 0.5s ease-out 0.7s; animation-fill-mode: backwards; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000340}}
+.btn_brown, .btn_brown:link, .btn_brown:visited { background: #A14F03; color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_button\.sass}line{font-family:\0000344}}
+.btn_brown::after { background: #A14F03; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_header\.sass}line{font-family:\000031}}
 .header { position: relative; height: 95vh; background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/header-background.jpg") center/cover no-repeat; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); }
@@ -218,14 +223,28 @@ body { font-family: "Roboto", sans-serif; font-weight: 400; color: #777777; font
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\000038}}
 .form { width: 64%; padding-top: 5rem; padding-left: 5rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000312}}
-.form__group:not(:last-child) { margin-bottom: 5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000315}}
-.form__input { font-size: 1.6rem; letter-spacing: 0.2rem; font-weight: 400; color: #010101; padding: 2rem 0rem 2rem 2rem; background: #fff; border: none; border-bottom: 0.2rem solid transparent; border-radius: 0.5rem; width: 55%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000327}}
+.form__group:not(:last-child) { margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000314}}
+.form__group:nth-child(4) { margin-bottom: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000317}}
+.form__input { font-size: 1.6rem; letter-spacing: 0.2rem; font-weight: 400; color: #010101; padding: 2rem 0rem 2rem 2rem; background: #fff; border: none; border-bottom: 0.2rem solid transparent; border-radius: 0.5rem; width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000329}}
 .form__input:focus { outline: none; border-bottom: 0.3rem solid #66D763; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000333}}
 .form__input:focus:invalid { border-bottom: 0.3rem solid #D76363; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000334}}
-.form__label { font-size: 1.6rem; letter-spacing: 0.2rem; font-weight: 400; display: block; margin-top: 1rem; margin-left: 1.5rem; transition: 0.7s all; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000336}}
+.form__label { font-size: 1.6rem; letter-spacing: 0.2rem; font-weight: 400; display: block; margin-top: 1rem; margin-left: 1.5rem; transition: 0.4s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000345}}
 .form__input:placeholder-shown + .form__label { opacity: 0; visibility: none; transform: translateY(-3rem); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000350}}
+.form__group-radio { width: 45%; display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000354}}
+.form__input-radio { display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000357}}
+.form__label-radio { cursor: pointer; position: relative; padding-left: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000362}}
+.form__button-radio { height: 3rem; width: 3rem; border-radius: 50%; border: 0.5rem solid #A14F03; display: block; position: absolute; left: 0; top: -0.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000371}}
+.form__button-radio::after { content: ""; display: block; height: 1.2rem; width: 1.2rem; border-radius: 50%; background: #A14F03; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; transition: 0.2s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_form\.sass}line{font-family:\0000385}}
+.form__input-radio:checked ~ .form__label-radio .form__button-radio::after { opacity: 1; }
