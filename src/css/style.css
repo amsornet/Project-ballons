@@ -114,22 +114,42 @@ body { font-family: "Roboto", sans-serif; font-weight: 400; color: #777777; font
 .navigation__toggle:checked ~ .navigation__background { transform: scale(80); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\000036}}
 .navigation__toggle:checked ~ .navigation__nav { width: 100%; opacity: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000313}}
-.navigation__button { background: #fff; height: 9rem; width: 9rem; border-radius: 50%; position: fixed; top: 6rem; right: 7rem; z-index: 10; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000323}}
-.navigation__background { width: 7rem; height: 7rem; border-radius: 50%; background: radial-gradient(#BA8554, #A14F03); position: fixed; right: 8rem; top: 8rem; z-index: 5; transition: 0.7s all; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000335}}
-.navigation__nav { height: 100vh; position: fixed; top: 0; right: 0; z-index: 7; opacity: 0; width: 0; transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000310}}
+.navigation__button { background: #fff; height: 8rem; width: 8rem; border-radius: 50%; position: fixed; top: 10rem; right: 10rem; z-index: 10; text-align: center; cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000322}}
+.navigation__background { width: 8rem; height: 8rem; border-radius: 50%; background: radial-gradient(#BA8554, #A14F03); position: fixed; right: 10rem; top: 10rem; z-index: 5; transition: 0.7s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000334}}
+.navigation__nav { height: 100vh; position: fixed; top: 0; right: 0; z-index: 7; opacity: 0; width: 0; transition: all 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000344}}
 .navigation__list { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); list-style: none; width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000351}}
 .navigation__item { text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000353}}
 .navigation__item:not(:last-child) { margin-bottom: 5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000357}}
 .navigation__link:link, .navigation__link:visited { font-size: 4rem; color: #fff; letter-spacing: 0.5rem; text-decoration: none; text-transform: uppercase; background: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%); background-size: 220%; padding: 1rem 2rem; transition: all 0.4s; display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000369}}
 .navigation__link:hover, .navigation__link:active { background-position: 100%; color: #A14F03; transform: translateX(1rem); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000374}}
+.navigation__icon { position: relative; margin-top: 37px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000377}}
+.navigation__icon, .navigation__icon::before, .navigation__icon::after { width: 30px; height: 2px; background: #010101; display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000384}}
+.navigation__icon::before, .navigation__icon::after { content: ""; position: absolute; left: 0; transition: all 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000390}}
+.navigation__icon::before { top: -8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000392}}
+.navigation__icon::after { top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000394}}
+.navigation__button:hover .navigation__icon::before { top: -10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000396}}
+.navigation__button:hover .navigation__icon::after { top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\0000399}}
+.navigation__toggle:checked + .navigation__button .navigation__icon { background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\00003102}}
+.navigation__toggle:checked + .navigation__button .navigation__icon::before { transform: rotate(135deg); top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/layout\/_navigation\.sass}line{font-family:\00003106}}
+.navigation__toggle:checked + .navigation__button .navigation__icon::after { transform: rotate(-135deg); top: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/pages\/_home\.sass}line{font-family:\000031}}
 .section-about { padding-top: 8rem; padding-bottom: 12rem; }
