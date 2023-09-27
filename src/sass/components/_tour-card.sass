@@ -5,7 +5,6 @@
   position: relative
   &__side
     height: 50rem
-    transition: .7s all ease-out
     color: white
     position: absolute
     top: 0
@@ -15,15 +14,21 @@
     box-shadow: $box-shadow
     border-radius: .5rem
     overflow: hidden
+
     &_front
     &_back
       background: green
       transform: rotateY(180deg)
       background: linear-gradient(120deg, $color-brown-light, $color-brown-dark)
+
   &:hover &__side_front
     transform: rotateY(-180deg)
+    transition: .7s all ease-in-out
+
   &:hover &__side_back
     transform: rotateY(0deg)
+    transition: .7s all ease-in-out
+
   &__img
     background-blend-mode: hard-light
     height: 21rem
