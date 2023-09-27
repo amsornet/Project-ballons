@@ -213,7 +213,7 @@ body { font-family: "Roboto", sans-serif; font-weight: 400; color: #777777; font
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_adventure-card\.sass}line{font-family:\000038}}
 .adventure-card:hover { transform: translateY(-1.5rem) scale(1.03); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_adventure-card\.sass}line{font-family:\0000310}}
-.adventure-card__icon { font-size: 6rem; background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(161, 79, 3, 0.7) 99.94%); background--webkit-background-clip: text; background-color: transparent; background-display: inline-block; }
+.adventure-card__icon { font-size: 6rem; background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(161, 79, 3, 0.7) 99.94%); -webkit-background-clip: text; color: transparent; display: inline-block; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\/HTML_Fokeev\/Project-ballons\/src\/sass\/components\/_tour-card\.sass}line{font-family:\000031}}
 .card-tour { height: 50rem; perspective: 150rem; -moz-perspective: 150rem; position: relative; }
